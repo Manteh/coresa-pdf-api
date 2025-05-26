@@ -1,0 +1,33 @@
+{
+  "name": "coresa-pdf-api",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manteh/coresa-pdf-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manteh/coresa-pdf-api/issues"
+  },
+  "homepage": "https://github.com/Manteh/coresa-pdf-api#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
