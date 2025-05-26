@@ -16,12 +16,13 @@ app.post('/generate', async (req, res) => {
         <meta charset="UTF-8" />
         <title>Resume</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
         <style>
           @page {
             margin: 2cm;
           }
           body {
-            font-family: system-ui, sans-serif;
+            font-family: 'Inter', sans-serif;
           }
         </style>
       </head>
